@@ -1,0 +1,74 @@
+HOME PAGE
+----------
+I design and develop beautiful, minimalistic and top-tier websites
+
+
+
+
+SKILLS PAGE
+----------
+Ui Ux Designer
+-I love and enjoy creating design which speaks to the viewer. MInimal, clean and appealing to the eye.
+-I like to design: Websites, Webapps and Mobile apps
+-Tools: Figama
+
+Frontend Developer
+-I value new ideas for the businesses or brands that I am creating for. I enjoy working with whatever is put on my plate 
+-Skills: Html, Css, Js, React Js, Next Js, Python, Firebase
+-Tools: VS Code, Git
+
+
+
+ABOUT PAGE
+----------
+I am a front end developer based in Kenya. I love creating beautiful, minimalistic and top-tier websites with an awesome user experience. I am interested in the frontend world because I like experessing myself with it via building great projects. I love drawing, listening to music and watching movies, series and anime. I am a fun guy if you get to know me well.
+
+
+colors: #000(Black), #FFF5EC(Cream), #53FDCA(Green Blue), #548CFF(Blue for power button)
+
+
+
+
+
+
+import React from 'react'
+
+const Main = () => {
+    return(
+        <div>
+
+        </div>
+    )
+}
+
+export default Main
+
+
+
+
+https://twitter.com/LbnLcd?t=KTXpwOwpdY-b1NLZLUUv5g&s=09 -twitter
+https://github.com/lbnmahs -girhub 
+https://www.instagram.com/lbn_mahs/ - ig
+
+
+
+
+
+<AnimatePresence exitBeforeEnter>
+        <Router location={location} key={location.pathname}>
+          <Switch>
+            <Route exact path="/">
+              <Main />
+            </Route>
+            <Route path="/skills">
+              <Skills />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/sayhi">
+              <Sayhi />
+            </Route>
+          </Switch>
+        </Router>
+      </AnimatePresence>
